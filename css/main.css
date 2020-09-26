@@ -69,14 +69,12 @@ nav ul li a {
 
 #about {
 	background: #8E5572;
-	padding: 100px;
-	margin: 0 auto;
 }
 
 #about .half-width {
-	margin: 0 auto;
-	padding-left: 5px;
-	width: 600px;
+	float: left;
+	height: 390px;
+	padding: 50px 0 50px 0;
 }
 
 #about h3 {
@@ -89,14 +87,16 @@ nav ul li a {
 
 #about p {
 	color: #FFFFFF;
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 400;
 }
 
 #about  img {
 	border: 5px solid #FFFFFF;
-	height: 500px;
-	width: 390px;
+    display: table-cell; 
+	margin:  auto;
+	vertical-align: middle;
+	width: 290px;
 }
 
 /*****Portfolio*****/
